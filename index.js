@@ -9,7 +9,7 @@ async function main() {
   bot.start(async (ctx) => {
     try {
       ctx.reply(
-        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nIt can take upto 10 seconds to bypass link so wait..\n\nHOW TO USE :-‎ <a href="https://te.legra.ph/INSTRUCTIONS-03-09">READ HERE</a>\n\nMade with ❤️ by @Devbots2\n\nSend any terabox link to download.`,
+        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nIt can take upto 10 seconds to bypass link so wait..\n\nHOW TO USE :-‎ https://te.legra.ph/INSTRUCTIONS-03-09\n\nMade with ❤️ by @Devbots2\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
           Markup.button.url(" Channel", "https://t.me/devbots2"),
           Markup.button.url("Report bug", "https://t.me/champaklalbot"),
@@ -41,11 +41,11 @@ async function main() {
             console.error(e); // Log the error for debugging
           }
         } else {
-          ctx.reply('Something went wrong 🙃\n\nHOW TO USE :-‎ <a href="https://te.legra.ph/INSTRUCTIONS-03-09">READ HERE</a>');
+          ctx.reply('Something went wrong 🙃\n\nHOW TO USE :-‎ https://te.legra.ph/INSTRUCTIONS-03-09');
         }
         console.log(details);
       } else {
-        ctx.reply("Please send a valid Terabox link. Read Here :- https://te.legra.ph/INSTRUCTIONS-03-09");
+        ctx.reply("Please send a valid Terabox link. HOW TO USE :- https://te.legra.ph/INSTRUCTIONS-03-09");
       }
     } else {
       //ctx.reply("No message text found.");
