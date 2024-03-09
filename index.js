@@ -45,7 +45,7 @@ async function main() {
         }
         console.log(details);
       } else {
-        ctx.reply("Please send a valid Terabox link.\n\nHOW TO USE :-‎ <a href="https://te.legra.ph/INSTRUCTIONS-03-09">READ HERE</a>");
+        ctx.reply("Please send a valid Terabox link.");
       }
     } else {
       //ctx.reply("No message text found.");
