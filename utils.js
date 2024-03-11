@@ -4,7 +4,7 @@ const sendFile = async (item, ctx) => {
       await ctx.replyWithDocument(item);
     } catch (e) {
       ctx.replyWithMarkdown(
-        ` ${e.message}\n\n👉 Try manually downloading from [here](${item})\n\n👉 *Get Movies without add join movie group - @DEVMOVIES2*`,
+        `*POWERED BY :- @DEVBOTS2*\n\n👉 Bypass Linkes :- [Click Here](${item})\n\n👉 *Get Movies without add join movie group - @DEVMOVIES2*`,
       );
     }
   }
