@@ -2,7 +2,7 @@
 
 This bot allows you to download files from Terabox and more through Telegram.
 
-[Bot link](https://t.me/terabox_downloader_robot)
+[Bot link](https://t.me/Terabypassbot)
 
 ## Required environment variables
  `BOT_TOKEN` : Telegram Bot Token
@@ -13,6 +13,6 @@ Video Tutorial [How To Deploy](https://youtu.be/KECEaNLRP2Q?si=4Ml3y_ikoxwT0qDG)
 
 
 ## Socials 
-Join Our Telegram [Channel](https://telegram.dog/botcodes123)
+Join Our Telegram [Channel](https://telegram.dog/devbots2)
 
-If You Want Any Help Related To This Bot [Contact us On Telegram](https://telegram.dog/Armanidrisi_bot)
+If You Want Any Help Related To This Bot [Contact us On Telegram](https://telegram.dog/champaklalbot)
